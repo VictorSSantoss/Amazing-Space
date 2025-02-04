@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  background-image: url("../img/photo-1613385119733-de72e1bb1c89.avif");
+  background-image: url("../img/Space.avif");
   height: 100%;
   background-color: black;
   background-attachment: fixed;
@@ -31,7 +31,7 @@ body {
 .logo {
   height: 80px;
   width: 80px;
-  background-image: url("../img/spaceship.png");
+  background-image: url("../img/Lower-resolution-spaceship-test.png");
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
@@ -135,7 +135,7 @@ nav a {
 /* The image below, is the higher quality rocket*/
 @media only screen and (min-resolution: 150dpi) {
   .logo {
-    background-image: url("../img/spaceship@2x.png");
+    background-image: url("../img/Lower-resolution-spaceship-test.png");
   }
 }
 
