@@ -103,6 +103,10 @@ nav a {
   text-decoration: none;
 }
 
+.footer {
+  text-align: center;
+}
+
 .contact-btn {
   cursor: pointer;
   margin: 20px 30px;
@@ -112,4 +116,10 @@ nav a {
 .contact-btn a:active {
   position: relative;
   bottom: 2px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-title {
+    width: 270px;
+  }
 }
